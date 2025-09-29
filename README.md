@@ -54,3 +54,7 @@ The Show/Hide Comment Control:
 The Table:
 
 Other Considerations:
+
+## Sources
+
+Github Copilot: "The forms" Accessibility CSS
