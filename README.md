@@ -53,8 +53,13 @@ For both the search and comments, I added labels to each <input>, and then chang
 the visibility using a CSS section named .sr-only.
 
 The Show/Hide Comment Control:
+In truth, I wasn't able to figure out how to get this portion to function, although
+it is keyboard accessible now.
 
 The Table:
+For the visuals of this table, I added a thicker line between the header and data,
+bolded the text, and made the background a different color that is also visible to 
+colorblind people (no matter their kind of color blindness).
 
 Other Considerations:
 I think that there could be better color combinations for those with poor eyesight
@@ -66,3 +71,4 @@ reading the article, explaining where they are navigating on the page, etc.
 
 Github Copilot: "The forms" Accessibility CSS
 Audio: https://www.shecodes.io/athena/3469-how-to-display-text-when-a-button-is-clicked-with-javascript
+Color blindness colors: https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40

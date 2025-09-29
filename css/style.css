@@ -139,12 +139,14 @@ footer {
 
 table {
   width: 100%;
-  background-color: #dde;
+  /*background-color: #dde;*/
   border-collapse: collapse;
+  border: 1px solid;
 }
 
 th, td {
   padding: 10px;
+  border: 1px solid;
 }
 
 td {
@@ -153,6 +155,16 @@ td {
 
 th[scope="col"] {
   border-bottom: 1px solid black;
+}
+
+thead tr {
+  border-bottom: 2px solid black;
+  background-color: #648FFF;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #def;
 }
 
 tbody tr:nth-child(odd) {
