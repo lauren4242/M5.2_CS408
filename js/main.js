@@ -16,6 +16,12 @@ showHideBtn.onclick = function() {
   }
 };
 
+//functionality for displaying the transcript of the audio file
+function displayText() {
+  var text = document.getElementById("textField");
+  text.style.display = "block";
+}
+
 // functionality for adding a new comment via the comments form
 
 const form = document.querySelector('.comment-form');

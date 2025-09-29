@@ -1,8 +1,8 @@
 # web-dev-starter
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This is a website showcasing accessibility in full-stack development.
+It contains keyboard accessible elements, screen reader accessibility,
+and colors with contrast for those with poor eyesight.
 
 ## Getting Started
 
@@ -44,17 +44,25 @@ The Images:
 I made the images more accessible by adding alt attributes to each of them.
 
 The Audio Player:
-
-TODO
+For the audio, I added a button that displays the transcript of the audio when
+pressed. it is italicized and quoted to separate the text from the rest of the
+article.
 
 The Forms:
+For both the search and comments, I added labels to each <input>, and then changed
+the visibility using a CSS section named .sr-only.
 
 The Show/Hide Comment Control:
 
 The Table:
 
 Other Considerations:
+I think that there could be better color combinations for those with poor eyesight
+or colorblindness, that may help to visually separate sections of the page. As well
+as that, for deaf users, there would need to be a lot more sounds describing the page,
+reading the article, explaining where they are navigating on the page, etc.
 
 ## Sources
 
 Github Copilot: "The forms" Accessibility CSS
+Audio: https://www.shecodes.io/athena/3469-how-to-display-text-when-a-button-is-clicked-with-javascript

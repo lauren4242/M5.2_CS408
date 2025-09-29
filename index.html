@@ -6,6 +6,7 @@
     <title>Accessibility assessment</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js"></script>
 
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
@@ -29,7 +30,7 @@
       <form class="search">
         <label for="search" class="sr-only">Search</label>
         <input id="search" type="search" name="q" placeholder="Search query">
-        <label for="submit" class="sr-only">Search go</label>
+        <label for="search" class="sr-only">Search</label>
         <input type="submit" value="Go!">
       </form>
     </header>
@@ -111,6 +112,14 @@
             <source src="media/bear.ogg" type="audio/ogg">
             <p>It looks like your browser doesn't support HTML5 audio players.</p>
           </audio>
+
+          <button onclick="displayText()">Transcript</button>
+
+          <div id="textField" style="display: none;">
+            <p><em>Transcript: "This isn't really an audio file about bears, but it is -- an audio file that you can transcribe"</em></p>        
+          </div>      
+
+          <br><br>
         </p>
         <aside>
 
@@ -124,7 +133,7 @@
         </aside>
         <section class="comments">
           <div class="show-hide">Show comments</div>
-
+          
           <div class="comment-wrapper">
 
             <font size="6">Add comment</font>
